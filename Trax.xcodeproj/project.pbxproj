@@ -16,6 +16,7 @@
 		3C300C221B697958006BA7AF /* GPX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C300C211B697958006BA7AF /* GPX.swift */; };
 		3C300C241B697AB7006BA7AF /* GPX.Waypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C300C231B697AB7006BA7AF /* GPX.Waypoint.swift */; };
 		3C300C261B698274006BA7AF /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C300C251B698274006BA7AF /* ImageViewController.swift */; };
+		3C78A0CC1B6A26B80087BC7B /* EditWaypointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C78A0CB1B6A26B80087BC7B /* EditWaypointViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		3C300C211B697958006BA7AF /* GPX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPX.swift; sourceTree = "<group>"; };
 		3C300C231B697AB7006BA7AF /* GPX.Waypoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPX.Waypoint.swift; sourceTree = "<group>"; };
 		3C300C251B698274006BA7AF /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		3C78A0CB1B6A26B80087BC7B /* EditWaypointViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditWaypointViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				3C300C011B6955FC006BA7AF /* AppDelegate.swift */,
 				3C300C031B6955FC006BA7AF /* GPXViewController.swift */,
 				3C300C051B6955FC006BA7AF /* Main.storyboard */,
+				3C78A0CB1B6A26B80087BC7B /* EditWaypointViewController.swift */,
 				3C300C081B6955FC006BA7AF /* Images.xcassets */,
 				3C300C0A1B6955FC006BA7AF /* LaunchScreen.xib */,
 				3C300BFF1B6955FC006BA7AF /* Supporting Files */,
@@ -223,6 +226,7 @@
 			files = (
 				3C300C041B6955FC006BA7AF /* GPXViewController.swift in Sources */,
 				3C300C241B697AB7006BA7AF /* GPX.Waypoint.swift in Sources */,
+				3C78A0CC1B6A26B80087BC7B /* EditWaypointViewController.swift in Sources */,
 				3C300C261B698274006BA7AF /* ImageViewController.swift in Sources */,
 				3C300C021B6955FC006BA7AF /* AppDelegate.swift in Sources */,
 				3C300C221B697958006BA7AF /* GPX.swift in Sources */,
@@ -423,6 +427,7 @@
 				3C300C1D1B6955FC006BA7AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C300C1E1B6955FC006BA7AF /* Build configuration list for PBXNativeTarget "TraxTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +436,7 @@
 				3C300C201B6955FC006BA7AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
